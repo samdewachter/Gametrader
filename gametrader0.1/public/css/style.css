@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+/* NAVIGATION */
+
+.navbar-default {
+	background-image: none;
+	background-color: black;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-left {
+	float: left;
+}
+.navbar-static-top {
+	border-width: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #06c9db;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+
+.navbar-collapse {
+	margin-top: 15px;
+}
+
+.navbar-brand {
+	height: 90px;
+  	padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+
+/*HOMEPAGE*/
+
+.container-fluid {
+	padding: 0px;
+}
+
+.header-img {
+	margin-top: -5px;
+	padding: 0;
+	width: 100vw;
+	margin-bottom: 50px;
+}
+
+.intro-container {
+	position: relative; 
+}
+
+.home-title { 
+   position: absolute; 
+   top: 40px; 
+   left: 300px; 
+}
+
+.home-text {
+	position: absolute; 
+   	top: 120px; 
+   	left: 300px; 
+   	width: 50%; 
+   	line-height: 200%;
+}
+
+.front span { 
+   color: white;  
+   letter-spacing: -1px;  
+   padding: 10px; 
+}
+.link {
+	display: -webkit-flex;
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	color:  #06c9db;
+	background-color: black;
+	height: 200px;
+	width: 200px;
+	margin: 30px;
+}
+
+.row-center {
+  text-align:center;
+}
+
+.col-center {
+  display:inline-block;
+  float:none;
+}
+
+.box {
+	color: white;  
+ 	background-color: rgba(5,4,2,0.3);
+	margin-left:auto;
+	margin-right:auto;
+	padding: 8px; }
+
+.home-title h1 {
+	margin-bottom: 10px;
+}
+
+.info-icon {
+	font-size: 80px;
+}
+.panel {
+	margin-top: 20px;
+}
+
+.panel-default {
+	border-color: black;
+}
+
+.panel-default > .panel-heading {
+	background-color: black;
+	color: #06c9db;
+}
+
+.btn{
+	background-color: black;
+	color: #06c9db;
+}
+
+/*BROWSE PAGE*/
+
+.dropdown-filter {
+	float: right;
+}
+
+.rotated {
+	transform: rotate(90deg);
+	/*transition-duration: 0.5s;*/
+}
+
+ .toggle-filter {
+
+ 	cursor: pointer; cursor: hand;
+ }
+
+ .toggle-rotate {
+ 	 transition-duration: 0.5s;
+ }
+
+ .game-preview {
+
+ 	height: 200px;
+ 	margin: 15px;
+ 	width: 350px;
+ }
+
+ .preview-image {
+ 	height: 150px;
+ 	margin-right: 10px;
+ 	width: auto;
+ 	float: left;
+ }
+
+ .preview-descr {
+ 	height: 150px;
+ 	text-align: left;
+ 	float: left;
+ }
+
+ .game-title {
+
+ }
+
+ .bold {
+ 	font-style: bold;
+ }
+
+ /* ACCOUNT PAGINA */
+
+ .account-games {
+ }
+
+  .account-info {
+  	height: 40vh;
+ }
+
+  .account-review {
+  	height: 40vh;
+ }
